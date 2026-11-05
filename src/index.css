@@ -1,0 +1,43 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-pixel: 'Press Start 2P', monospace;
+  --font-lcd: 'VT323', monospace;
+  --font-sans: 'Plus Jakarta Sans', sans-serif;
+}
+
+/* Custom retro brick aesthetics */
+.font-pixel {
+  font-family: 'Press Start 2P', monospace;
+}
+
+.font-lcd {
+  font-family: 'VT323', monospace;
+}
+
+/* Subtle CRT / LCD scanline overlay */
+.lcd-scanlines {
+  background: linear-gradient(
+    rgba(18, 16, 16, 0) 50%, 
+    rgba(0, 0, 0, 0.15) 50%
+  );
+  background-size: 100% 4px;
+}
+
+/* Glass shine on retro screen */
+.screen-glare {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.02) 40%,
+    rgba(255, 255, 255, 0) 60%
+  );
+}
+
+/* Prevent elastic bounce on mobile touch */
+html, body {
+  overscroll-behavior: none;
+  touch-action: manipulation;
+  height: 100%;
+}

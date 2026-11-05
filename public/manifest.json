@@ -1,0 +1,39 @@
+{
+  "short_name": "Falling Blocks",
+  "name": "Falling Blocks: Classic Brick Edition",
+  "description": "Vintage handheld-inspired falling blocks puzzle game developed and published by Ayush Kumar.",
+  "icons": [
+    {
+      "src": "/app-logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "any"
+    },
+    {
+      "src": "/app-logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "192x192 512x512",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/assets/aistudio/creator_ayush_kumar_74687dae.png",
+      "type": "image/png",
+      "sizes": "192x192 512x512",
+      "purpose": "any"
+    }
+  ],
+  "id": "/",
+  "start_url": "/",
+  "scope": "/",
+  "background_color": "#06090f",
+  "theme_color": "#06b6d4",
+  "display": "standalone",
+  "orientation": "portrait",
+  "categories": ["games", "arcade", "puzzle"],
+  "developer": {
+    "name": "Ayush Kumar",
+    "url": "https://github.com/ayushkumar"
+  },
+  "author": "Ayush Kumar",
+  "publisher": "Ayush Kumar"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "Falling Blocks: Classic Brick",
+  "description": "Vintage handheld-inspired falling blocks puzzle game with retro LCD graphics, authentic multi-row scoring math, multiple difficulty modes, and tactile arcade controls.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
